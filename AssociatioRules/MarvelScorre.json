@@ -1,0 +1,42 @@
+-----------------------------------------------
+ -------- Frequent Item Sets --------
+[March, Studios] 6
+[million] 3
+[Marvel, Studios] 7
+[March] 6
+[Studios] 7
+[March, Marvel, Studios] 6
+[Marvel] 8
+[March, Marvel] 6
+ -------- Association Rules --------
+-----------------------------------------------
+-----------------------------------------------
+[March, Studios] - 6
+
+[March]->[Studios] confidence = 1.0
+[Studios]->[March] confidence = 0.8571428571428571
+-----------------------------------------------
+[Marvel, Studios] - 7
+
+[Studios]->[Marvel] confidence = 1.0
+[Marvel]->[Studios] confidence = 0.875
+-----------------------------------------------
+[March, Marvel, Studios] - 6
+
+[March, Studios]->[Marvel] confidence = 1.0
+[March]->[Studios, Marvel] confidence = 1.0
+[Studios]->[March, Marvel] confidence = 0.8571428571428571
+[Marvel, Studios]->[March] confidence = 0.8571428571428571
+[Marvel]->[March, Studios] confidence = 0.875
+[March, Marvel]->[Studios] confidence = 1.0
+-----------------------------------------------
+[March, Marvel] - 6
+
+[March]->[Marvel] confidence = 1.0
+[Marvel]->[March] confidence = 0.75
+-----------------------------------------------
+Percentage of words on asscociation rules :
+.....................................................................................................
+1) March = 83.33333%
+2) Studios = 83.33333%
+3) Marvel = 83.33333%

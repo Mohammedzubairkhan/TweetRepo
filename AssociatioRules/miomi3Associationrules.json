@@ -1,0 +1,763 @@
+-----------------------------------------------
+ -------- Frequent Item Sets --------
+[!!!] 2
+[ロンドンゲーム, 大盛況でした] 2
+[Jay] 16
+[NFL, Puerto] 2
+[year] 2
+[Hillary, Trump] 3
+[Adrian, Peterson] 5
+[Bodysuit, Fox, Given, Zero] 2
+[day, the] 2
+[Mayor, NFL] 2
+[Liga] 2
+[Brussels, surgery] 2
+[National] 2
+[Fox, Given] 2
+[Bodysuit, Fox] 2
+[Bodysuit, Zero] 2
+[Orleans] 4
+[Wembley, day] 2
+[10] 2
+[AMERICA] 2
+[Wembley, today] 2
+[Baby, Bodysuit, Given, Zero] 2
+[Baby, Bodysuit, Zero] 2
+[$] 2
+[Rico] 2
+[London, first] 2
+[Sprouts, surgery] 2
+[New, Orleans, today] 2
+[Baby, Fox, Zero] 2
+[大盛況でした] 3
+[morning] 3
+[0] 2
+[1] 6
+[Canada] 2
+[2] 2
+[セインツ, 大盛況でした] 3
+[Dolphins, Saints] 4
+[Dolphins, Miami, NFL] 3
+[London] 13
+[Baby, Fox, Given] 2
+[Dolphins, Jay] 3
+[Week] 2
+[Dolphins, first] 3
+[Dolphins] 19
+[Baby, Bodysuit] 2
+[Dolphins, NFL] 3
+[Wembley, day, yesterday] 2
+[morning, this] 3
+[American] 2
+[Cutler, Jay] 15
+[Given] 2
+[day, yesterday] 2
+[Cutler] 22
+[National, yesterday] 2
+[Dolphins, Miami] 5
+[Baby, Bodysuit, Fox, Given] 2
+[Bodysuit, Given] 2
+[Baby, Bodysuit, Fox, Given, Zero] 2
+[New, today] 2
+[2-2] 2
+[セインツ, ドルフィンズ] 3
+[Bodysuit, Fox, Given] 2
+[Fox, Zero] 2
+[30] 2
+[Bodysuit, Given, Zero] 2
+[Given, Zero] 2
+[present, today] 2
+[Brussels, Sprouts] 2
+[one] 2
+[NFL, Puerto, Rico] 2
+[Cutler, Dolphins] 4
+[Cutler, Dolphins, Jay] 3
+[Baby, Given] 2
+[the] 4
+[Giants] 2
+[セインツ, ドルフィンズ, ロンドンゲーム] 2
+[Hillary] 3
+[Baby, Given, Zero] 2
+[Mayor, Rico] 2
+[Miami, NFL] 3
+[|] 3
+[first] 9
+[surgery] 2
+[New] 4
+[セインツ, ロンドンゲーム] 2
+[Mayor] 2
+[Baby, Fox] 2
+[Baby, Bodysuit, Fox, Zero] 2
+[second] 4
+[Fox, Given, Zero] 2
+[NFL] 13
+[Mayor, NFL, Puerto] 2
+[First] 2
+[ドルフィンズ, ロンドンゲーム] 2
+[day] 5
+[New, Orleans] 4
+[Brussels] 2
+[-0] 5
+[last] 2
+[-2] 2
+[minutes] 2
+[Orleans, today] 2
+[Wembley, yesterday] 2
+[this] 4
+[Puerto] 2
+[Bodysuit] 2
+[Fox] 2
+[Trump] 5
+[Baby, Fox, Given, Zero] 2
+[Brees] 2
+[ドルフィンズ] 3
+[Trump, year] 2
+[Mayor, NFL, Puerto, Rico] 2
+[present] 2
+[Baby, Bodysuit, Given] 2
+[NFL, Rico] 2
+[Stadium] 2
+[week] 3
+[Sprouts] 2
+[Adrian] 5
+[セインツ, ドルフィンズ, ロンドンゲーム, 大盛況でした] 2
+[Peterson] 5
+[London, NFL] 3
+[Mayor, Puerto, Rico] 2
+[yesterday] 5
+[Bodysuit, Fox, Zero] 2
+[today] 13
+[now] 3
+[ドルフィンズ, 大盛況でした] 3
+[ロンドンゲーム] 2
+[Brussels, Sprouts, surgery] 2
+[セインツ] 3
+[Puerto, Rico] 2
+[Unisex] 2
+[Zero] 2
+[セインツ, ドルフィンズ, 大盛況でした] 3
+[Dolphins, London] 2
+[Dolphins, week] 2
+[Baby] 2
+[Mayor, NFL, Rico] 2
+[Miami] 7
+[セインツ, ロンドンゲーム, 大盛況でした] 2
+[Baby, Bodysuit, Fox] 2
+[ドルフィンズ, ロンドンゲーム, 大盛況でした] 2
+[third] 2
+[Baby, Zero] 2
+[Saints] 11
+[Wembley] 9
+[Stadium, Wembley] 2
+[Mayor, Puerto] 2
+ -------- Association Rules --------
+-----------------------------------------------
+-----------------------------------------------
+[ロンドンゲーム, 大盛況でした] - 2
+
+[大盛況でした]->[ロンドンゲーム] confidence = 0.6666666666666666
+[ロンドンゲーム]->[大盛況でした] confidence = 1.0
+-----------------------------------------------
+[NFL, Puerto] - 2
+
+[Puerto]->[NFL] confidence = 1.0
+-----------------------------------------------
+[Hillary, Trump] - 3
+
+[Hillary]->[Trump] confidence = 1.0
+[Trump]->[Hillary] confidence = 0.6
+-----------------------------------------------
+[Adrian, Peterson] - 5
+
+[Adrian]->[Peterson] confidence = 1.0
+[Peterson]->[Adrian] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Fox, Given, Zero] - 2
+
+[Bodysuit, Fox, Given]->[Zero] confidence = 1.0
+[Given, Fox]->[Zero, Bodysuit] confidence = 1.0
+[Given]->[Zero, Bodysuit, Fox] confidence = 1.0
+[Fox]->[Zero, Given, Bodysuit] confidence = 1.0
+[Given, Bodysuit]->[Zero, Fox] confidence = 1.0
+[Bodysuit]->[Zero, Given, Fox] confidence = 1.0
+[Bodysuit, Fox]->[Zero, Given] confidence = 1.0
+[Bodysuit, Fox, Zero]->[Given] confidence = 1.0
+[Zero, Bodysuit]->[Given, Fox] confidence = 1.0
+[Zero]->[Given, Bodysuit, Fox] confidence = 1.0
+[Zero, Fox]->[Given, Bodysuit] confidence = 1.0
+[Fox, Given, Zero]->[Bodysuit] confidence = 1.0
+[Zero, Given]->[Bodysuit, Fox] confidence = 1.0
+[Bodysuit, Given, Zero]->[Fox] confidence = 1.0
+-----------------------------------------------
+[day, the] - 2
+
+-----------------------------------------------
+[Mayor, NFL] - 2
+
+[Mayor]->[NFL] confidence = 1.0
+-----------------------------------------------
+[Brussels, surgery] - 2
+
+[Brussels]->[surgery] confidence = 1.0
+[surgery]->[Brussels] confidence = 1.0
+-----------------------------------------------
+[Fox, Given] - 2
+
+[Given]->[Fox] confidence = 1.0
+[Fox]->[Given] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Fox] - 2
+
+[Bodysuit]->[Fox] confidence = 1.0
+[Fox]->[Bodysuit] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Zero] - 2
+
+[Bodysuit]->[Zero] confidence = 1.0
+[Zero]->[Bodysuit] confidence = 1.0
+-----------------------------------------------
+[Wembley, day] - 2
+
+-----------------------------------------------
+[Wembley, today] - 2
+
+-----------------------------------------------
+[Baby, Bodysuit, Given, Zero] - 2
+
+[Baby, Bodysuit, Zero]->[Given] confidence = 1.0
+[Zero, Bodysuit]->[Given, Baby] confidence = 1.0
+[Bodysuit]->[Zero, Given, Baby] confidence = 1.0
+[Zero]->[Given, Baby, Bodysuit] confidence = 1.0
+[Zero, Baby]->[Given, Bodysuit] confidence = 1.0
+[Baby]->[Zero, Given, Bodysuit] confidence = 1.0
+[Baby, Bodysuit]->[Zero, Given] confidence = 1.0
+[Baby, Given, Zero]->[Bodysuit] confidence = 1.0
+[Zero, Given]->[Baby, Bodysuit] confidence = 1.0
+[Given]->[Zero, Baby, Bodysuit] confidence = 1.0
+[Given, Baby]->[Zero, Bodysuit] confidence = 1.0
+[Baby, Bodysuit, Given]->[Zero] confidence = 1.0
+[Given, Bodysuit]->[Zero, Baby] confidence = 1.0
+[Bodysuit, Given, Zero]->[Baby] confidence = 1.0
+-----------------------------------------------
+[Baby, Bodysuit, Zero] - 2
+
+[Baby, Zero]->[Bodysuit] confidence = 1.0
+[Baby]->[Zero, Bodysuit] confidence = 1.0
+[Zero]->[Baby, Bodysuit] confidence = 1.0
+[Bodysuit, Zero]->[Baby] confidence = 1.0
+[Bodysuit]->[Zero, Baby] confidence = 1.0
+[Baby, Bodysuit]->[Zero] confidence = 1.0
+-----------------------------------------------
+[London, first] - 2
+
+-----------------------------------------------
+[Sprouts, surgery] - 2
+
+[Sprouts]->[surgery] confidence = 1.0
+[surgery]->[Sprouts] confidence = 1.0
+-----------------------------------------------
+[New, Orleans, today] - 2
+
+[New]->[today, Orleans] confidence = 1.0
+[Orleans]->[New, today] confidence = 1.0
+[New, today]->[Orleans] confidence = 1.0
+[Orleans, today]->[New] confidence = 1.0
+-----------------------------------------------
+[Baby, Fox, Zero] - 2
+
+[Fox, Zero]->[Baby] confidence = 1.0
+[Zero]->[Baby, Fox] confidence = 1.0
+[Fox]->[Zero, Baby] confidence = 1.0
+[Baby, Zero]->[Fox] confidence = 1.0
+[Baby]->[Zero, Fox] confidence = 1.0
+[Baby, Fox]->[Zero] confidence = 1.0
+-----------------------------------------------
+[セインツ, 大盛況でした] - 3
+
+[セインツ]->[大盛況でした] confidence = 1.0
+[大盛況でした]->[セインツ] confidence = 1.0
+-----------------------------------------------
+[Dolphins, Saints] - 4
+
+-----------------------------------------------
+[Dolphins, Miami, NFL] - 3
+
+[Dolphins, Miami]->[NFL] confidence = 0.6
+[Miami]->[NFL, Dolphins] confidence = 0.7142857142857143
+[Dolphins, NFL]->[Miami] confidence = 1.0
+[Miami, NFL]->[Dolphins] confidence = 1.0
+-----------------------------------------------
+[Baby, Fox, Given] - 2
+
+[Baby, Given]->[Fox] confidence = 1.0
+[Given]->[Baby, Fox] confidence = 1.0
+[Baby]->[Given, Fox] confidence = 1.0
+[Fox, Given]->[Baby] confidence = 1.0
+[Fox]->[Given, Baby] confidence = 1.0
+[Baby, Fox]->[Given] confidence = 1.0
+-----------------------------------------------
+[Dolphins, Jay] - 3
+
+-----------------------------------------------
+[Dolphins, first] - 3
+
+-----------------------------------------------
+[Baby, Bodysuit] - 2
+
+[Baby]->[Bodysuit] confidence = 1.0
+[Bodysuit]->[Baby] confidence = 1.0
+-----------------------------------------------
+[Dolphins, NFL] - 3
+
+-----------------------------------------------
+[Wembley, day, yesterday] - 2
+
+[Wembley, yesterday]->[day] confidence = 1.0
+[Wembley, day]->[yesterday] confidence = 1.0
+[day, yesterday]->[Wembley] confidence = 1.0
+-----------------------------------------------
+[morning, this] - 3
+
+[morning]->[this] confidence = 1.0
+[this]->[morning] confidence = 0.75
+-----------------------------------------------
+[Cutler, Jay] - 15
+
+[Jay]->[Cutler] confidence = 0.9375
+[Cutler]->[Jay] confidence = 0.6818181818181818
+-----------------------------------------------
+[day, yesterday] - 2
+
+-----------------------------------------------
+[National, yesterday] - 2
+
+[National]->[yesterday] confidence = 1.0
+-----------------------------------------------
+[Dolphins, Miami] - 5
+
+[Miami]->[Dolphins] confidence = 0.7142857142857143
+-----------------------------------------------
+[Baby, Bodysuit, Fox, Given] - 2
+
+[Baby, Fox, Given]->[Bodysuit] confidence = 1.0
+[Given, Fox]->[Baby, Bodysuit] confidence = 1.0
+[Given]->[Baby, Bodysuit, Fox] confidence = 1.0
+[Fox]->[Given, Baby, Bodysuit] confidence = 1.0
+[Baby, Fox]->[Given, Bodysuit] confidence = 1.0
+[Baby]->[Given, Bodysuit, Fox] confidence = 1.0
+[Given, Baby]->[Bodysuit, Fox] confidence = 1.0
+[Bodysuit, Fox, Given]->[Baby] confidence = 1.0
+[Given, Bodysuit]->[Baby, Fox] confidence = 1.0
+[Bodysuit]->[Given, Baby, Fox] confidence = 1.0
+[Bodysuit, Fox]->[Given, Baby] confidence = 1.0
+[Baby, Bodysuit, Fox]->[Given] confidence = 1.0
+[Baby, Bodysuit]->[Given, Fox] confidence = 1.0
+[Baby, Bodysuit, Given]->[Fox] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Given] - 2
+
+[Given]->[Bodysuit] confidence = 1.0
+[Bodysuit]->[Given] confidence = 1.0
+-----------------------------------------------
+[Baby, Bodysuit, Fox, Given, Zero] - 2
+
+[Baby, Bodysuit, Fox, Given]->[Zero] confidence = 1.0
+[Given, Baby, Fox]->[Zero, Bodysuit] confidence = 1.0
+[Given, Fox]->[Zero, Baby, Bodysuit] confidence = 1.0
+[Given]->[Zero, Baby, Bodysuit, Fox] confidence = 1.0
+[Fox]->[Zero, Given, Baby, Bodysuit] confidence = 1.0
+[Baby, Fox]->[Zero, Given, Bodysuit] confidence = 1.0
+[Baby]->[Zero, Given, Bodysuit, Fox] confidence = 1.0
+[Given, Baby]->[Zero, Bodysuit, Fox] confidence = 1.0
+[Baby, Bodysuit, Fox]->[Zero, Given] confidence = 1.0
+[Bodysuit, Fox]->[Zero, Given, Baby] confidence = 1.0
+[Bodysuit]->[Zero, Given, Baby, Fox] confidence = 1.0
+[Baby, Bodysuit]->[Zero, Given, Fox] confidence = 1.0
+[Given, Baby, Bodysuit]->[Zero, Fox] confidence = 1.0
+[Given, Bodysuit]->[Zero, Baby, Fox] confidence = 1.0
+[Given, Bodysuit, Fox]->[Zero, Baby] confidence = 1.0
+[Bodysuit, Fox, Given, Zero]->[Baby] confidence = 1.0
+[Zero, Bodysuit, Fox]->[Given, Baby] confidence = 1.0
+[Zero, Bodysuit]->[Given, Baby, Fox] confidence = 1.0
+[Zero]->[Given, Baby, Bodysuit, Fox] confidence = 1.0
+[Zero, Fox]->[Given, Baby, Bodysuit] confidence = 1.0
+[Zero, Given, Fox]->[Baby, Bodysuit] confidence = 1.0
+[Zero, Given]->[Baby, Bodysuit, Fox] confidence = 1.0
+[Zero, Given, Bodysuit]->[Baby, Fox] confidence = 1.0
+[Baby, Bodysuit, Fox, Zero]->[Given] confidence = 1.0
+[Zero, Baby, Fox]->[Given, Bodysuit] confidence = 1.0
+[Zero, Baby]->[Given, Bodysuit, Fox] confidence = 1.0
+[Zero, Baby, Bodysuit]->[Given, Fox] confidence = 1.0
+[Baby, Bodysuit, Given, Zero]->[Fox] confidence = 1.0
+[Zero, Given, Baby]->[Bodysuit, Fox] confidence = 1.0
+[Baby, Fox, Given, Zero]->[Bodysuit] confidence = 1.0
+-----------------------------------------------
+[New, today] - 2
+
+-----------------------------------------------
+[セインツ, ドルフィンズ] - 3
+
+[ドルフィンズ]->[セインツ] confidence = 1.0
+[セインツ]->[ドルフィンズ] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Fox, Given] - 2
+
+[Fox, Given]->[Bodysuit] confidence = 1.0
+[Given]->[Bodysuit, Fox] confidence = 1.0
+[Fox]->[Given, Bodysuit] confidence = 1.0
+[Bodysuit, Given]->[Fox] confidence = 1.0
+[Bodysuit]->[Given, Fox] confidence = 1.0
+[Bodysuit, Fox]->[Given] confidence = 1.0
+-----------------------------------------------
+[Fox, Zero] - 2
+
+[Zero]->[Fox] confidence = 1.0
+[Fox]->[Zero] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Given, Zero] - 2
+
+[Bodysuit, Given]->[Zero] confidence = 1.0
+[Given]->[Zero, Bodysuit] confidence = 1.0
+[Bodysuit]->[Zero, Given] confidence = 1.0
+[Bodysuit, Zero]->[Given] confidence = 1.0
+[Zero]->[Given, Bodysuit] confidence = 1.0
+[Given, Zero]->[Bodysuit] confidence = 1.0
+-----------------------------------------------
+[Given, Zero] - 2
+
+[Given]->[Zero] confidence = 1.0
+[Zero]->[Given] confidence = 1.0
+-----------------------------------------------
+[present, today] - 2
+
+[present]->[today] confidence = 1.0
+-----------------------------------------------
+[Brussels, Sprouts] - 2
+
+[Brussels]->[Sprouts] confidence = 1.0
+[Sprouts]->[Brussels] confidence = 1.0
+-----------------------------------------------
+[NFL, Puerto, Rico] - 2
+
+[NFL, Puerto]->[Rico] confidence = 1.0
+[Puerto]->[NFL, Rico] confidence = 1.0
+[Puerto, Rico]->[NFL] confidence = 1.0
+[Rico]->[NFL, Puerto] confidence = 1.0
+[NFL, Rico]->[Puerto] confidence = 1.0
+-----------------------------------------------
+[Cutler, Dolphins] - 4
+
+-----------------------------------------------
+[Cutler, Dolphins, Jay] - 3
+
+[Jay]->[Cutler, Dolphins] confidence = 0.9375
+[Cutler]->[Jay, Dolphins] confidence = 0.6818181818181818
+[Dolphins, Jay]->[Cutler] confidence = 1.0
+[Cutler, Dolphins]->[Jay] confidence = 0.75
+-----------------------------------------------
+[Baby, Given] - 2
+
+[Given]->[Baby] confidence = 1.0
+[Baby]->[Given] confidence = 1.0
+-----------------------------------------------
+[セインツ, ドルフィンズ, ロンドンゲーム] - 2
+
+[セインツ, ロンドンゲーム]->[ドルフィンズ] confidence = 1.0
+[セインツ]->[ドルフィンズ, ロンドンゲーム] confidence = 0.6666666666666666
+[ロンドンゲーム]->[ドルフィンズ, セインツ] confidence = 1.0
+[ドルフィンズ, ロンドンゲーム]->[セインツ] confidence = 1.0
+[ドルフィンズ]->[ロンドンゲーム, セインツ] confidence = 0.6666666666666666
+[セインツ, ドルフィンズ]->[ロンドンゲーム] confidence = 0.6666666666666666
+-----------------------------------------------
+[Baby, Given, Zero] - 2
+
+[Baby, Given]->[Zero] confidence = 1.0
+[Given]->[Zero, Baby] confidence = 1.0
+[Baby]->[Zero, Given] confidence = 1.0
+[Baby, Zero]->[Given] confidence = 1.0
+[Zero]->[Given, Baby] confidence = 1.0
+[Given, Zero]->[Baby] confidence = 1.0
+-----------------------------------------------
+[Mayor, Rico] - 2
+
+[Rico]->[Mayor] confidence = 1.0
+[Mayor]->[Rico] confidence = 1.0
+-----------------------------------------------
+[Miami, NFL] - 3
+
+-----------------------------------------------
+[セインツ, ロンドンゲーム] - 2
+
+[セインツ]->[ロンドンゲーム] confidence = 0.6666666666666666
+[ロンドンゲーム]->[セインツ] confidence = 1.0
+-----------------------------------------------
+[Baby, Fox] - 2
+
+[Baby]->[Fox] confidence = 1.0
+[Fox]->[Baby] confidence = 1.0
+-----------------------------------------------
+[Baby, Bodysuit, Fox, Zero] - 2
+
+[Baby, Bodysuit, Zero]->[Fox] confidence = 1.0
+[Zero, Bodysuit]->[Baby, Fox] confidence = 1.0
+[Bodysuit]->[Zero, Baby, Fox] confidence = 1.0
+[Zero]->[Baby, Bodysuit, Fox] confidence = 1.0
+[Zero, Baby]->[Bodysuit, Fox] confidence = 1.0
+[Baby]->[Zero, Bodysuit, Fox] confidence = 1.0
+[Baby, Bodysuit]->[Zero, Fox] confidence = 1.0
+[Baby, Bodysuit, Fox]->[Zero] confidence = 1.0
+[Baby, Fox]->[Zero, Bodysuit] confidence = 1.0
+[Fox]->[Zero, Baby, Bodysuit] confidence = 1.0
+[Bodysuit, Fox]->[Zero, Baby] confidence = 1.0
+[Bodysuit, Fox, Zero]->[Baby] confidence = 1.0
+[Zero, Fox]->[Baby, Bodysuit] confidence = 1.0
+[Baby, Fox, Zero]->[Bodysuit] confidence = 1.0
+-----------------------------------------------
+[Fox, Given, Zero] - 2
+
+[Fox, Zero]->[Given] confidence = 1.0
+[Zero]->[Given, Fox] confidence = 1.0
+[Fox]->[Zero, Given] confidence = 1.0
+[Fox, Given]->[Zero] confidence = 1.0
+[Given]->[Zero, Fox] confidence = 1.0
+[Given, Zero]->[Fox] confidence = 1.0
+-----------------------------------------------
+[Mayor, NFL, Puerto] - 2
+
+[NFL, Puerto]->[Mayor] confidence = 1.0
+[Puerto]->[Mayor, NFL] confidence = 1.0
+[Mayor, NFL]->[Puerto] confidence = 1.0
+[Mayor]->[NFL, Puerto] confidence = 1.0
+[Mayor, Puerto]->[NFL] confidence = 1.0
+-----------------------------------------------
+[ドルフィンズ, ロンドンゲーム] - 2
+
+[ドルフィンズ]->[ロンドンゲーム] confidence = 0.6666666666666666
+[ロンドンゲーム]->[ドルフィンズ] confidence = 1.0
+-----------------------------------------------
+[New, Orleans] - 4
+
+[New]->[Orleans] confidence = 1.0
+[Orleans]->[New] confidence = 1.0
+-----------------------------------------------
+[Orleans, today] - 2
+
+-----------------------------------------------
+[Wembley, yesterday] - 2
+
+-----------------------------------------------
+[Baby, Fox, Given, Zero] - 2
+
+[Baby, Fox, Given]->[Zero] confidence = 1.0
+[Given, Fox]->[Zero, Baby] confidence = 1.0
+[Given]->[Zero, Baby, Fox] confidence = 1.0
+[Fox]->[Zero, Given, Baby] confidence = 1.0
+[Baby, Fox]->[Zero, Given] confidence = 1.0
+[Baby]->[Zero, Given, Fox] confidence = 1.0
+[Given, Baby]->[Zero, Fox] confidence = 1.0
+[Baby, Given, Zero]->[Fox] confidence = 1.0
+[Zero, Given]->[Baby, Fox] confidence = 1.0
+[Zero]->[Given, Baby, Fox] confidence = 1.0
+[Zero, Baby]->[Given, Fox] confidence = 1.0
+[Fox, Given, Zero]->[Baby] confidence = 1.0
+[Zero, Fox]->[Given, Baby] confidence = 1.0
+[Baby, Fox, Zero]->[Given] confidence = 1.0
+-----------------------------------------------
+[Trump, year] - 2
+
+[year]->[Trump] confidence = 1.0
+-----------------------------------------------
+[Mayor, NFL, Puerto, Rico] - 2
+
+[Mayor, Puerto, Rico]->[NFL] confidence = 1.0
+[Rico, Puerto]->[Mayor, NFL] confidence = 1.0
+[Rico]->[Mayor, NFL, Puerto] confidence = 1.0
+[Puerto]->[Mayor, NFL, Rico] confidence = 1.0
+[Mayor, Rico]->[NFL, Puerto] confidence = 1.0
+[Mayor]->[NFL, Rico, Puerto] confidence = 1.0
+[Mayor, Puerto]->[NFL, Rico] confidence = 1.0
+[Mayor, NFL, Rico]->[Puerto] confidence = 1.0
+[Mayor, NFL]->[Rico, Puerto] confidence = 1.0
+[NFL, Rico]->[Mayor, Puerto] confidence = 1.0
+[NFL, Puerto, Rico]->[Mayor] confidence = 1.0
+[NFL, Puerto]->[Mayor, Rico] confidence = 1.0
+[Mayor, NFL, Puerto]->[Rico] confidence = 1.0
+-----------------------------------------------
+[Baby, Bodysuit, Given] - 2
+
+[Baby, Given]->[Bodysuit] confidence = 1.0
+[Given]->[Baby, Bodysuit] confidence = 1.0
+[Baby]->[Given, Bodysuit] confidence = 1.0
+[Bodysuit, Given]->[Baby] confidence = 1.0
+[Bodysuit]->[Given, Baby] confidence = 1.0
+[Baby, Bodysuit]->[Given] confidence = 1.0
+-----------------------------------------------
+[NFL, Rico] - 2
+
+[Rico]->[NFL] confidence = 1.0
+-----------------------------------------------
+[セインツ, ドルフィンズ, ロンドンゲーム, 大盛況でした] - 2
+
+[セインツ, ドルフィンズ, ロンドンゲーム]->[大盛況でした] confidence = 1.0
+[ドルフィンズ, セインツ]->[ロンドンゲーム, 大盛況でした] confidence = 0.6666666666666666
+[ドルフィンズ]->[ロンドンゲーム, セインツ, 大盛況でした] confidence = 1.0
+[セインツ]->[ドルフィンズ, ロンドンゲーム, 大盛況でした] confidence = 1.0
+[ロンドンゲーム, セインツ]->[ドルフィンズ, 大盛況でした] confidence = 1.0
+[ロンドンゲーム]->[ドルフィンズ, セインツ, 大盛況でした] confidence = 1.0
+[ドルフィンズ, ロンドンゲーム]->[セインツ, 大盛況でした] confidence = 1.0
+[ドルフィンズ, ロンドンゲーム, 大盛況でした]->[セインツ] confidence = 1.0
+[ドルフィンズ, 大盛況でした]->[ロンドンゲーム, セインツ] confidence = 0.6666666666666666
+[大盛況でした]->[ドルフィンズ, ロンドンゲーム, セインツ] confidence = 1.0
+[ロンドンゲーム, 大盛況でした]->[ドルフィンズ, セインツ] confidence = 1.0
+[セインツ, ドルフィンズ, 大盛況でした]->[ロンドンゲーム] confidence = 0.6666666666666666
+[セインツ, 大盛況でした]->[ドルフィンズ, ロンドンゲーム] confidence = 1.0
+[セインツ, ロンドンゲーム, 大盛況でした]->[ドルフィンズ] confidence = 1.0
+-----------------------------------------------
+[London, NFL] - 3
+
+-----------------------------------------------
+[Mayor, Puerto, Rico] - 2
+
+[Puerto, Rico]->[Mayor] confidence = 1.0
+[Rico]->[Mayor, Puerto] confidence = 1.0
+[Puerto]->[Mayor, Rico] confidence = 1.0
+[Mayor, Rico]->[Puerto] confidence = 1.0
+[Mayor]->[Rico, Puerto] confidence = 1.0
+[Mayor, Puerto]->[Rico] confidence = 1.0
+-----------------------------------------------
+[Bodysuit, Fox, Zero] - 2
+
+[Fox, Zero]->[Bodysuit] confidence = 1.0
+[Zero]->[Bodysuit, Fox] confidence = 1.0
+[Fox]->[Zero, Bodysuit] confidence = 1.0
+[Bodysuit, Fox]->[Zero] confidence = 1.0
+[Bodysuit]->[Zero, Fox] confidence = 1.0
+[Bodysuit, Zero]->[Fox] confidence = 1.0
+-----------------------------------------------
+[ドルフィンズ, 大盛況でした] - 3
+
+[ドルフィンズ]->[大盛況でした] confidence = 1.0
+[大盛況でした]->[ドルフィンズ] confidence = 1.0
+-----------------------------------------------
+[Brussels, Sprouts, surgery] - 2
+
+[Brussels, surgery]->[Sprouts] confidence = 1.0
+[Brussels]->[Sprouts, surgery] confidence = 1.0
+[surgery]->[Brussels, Sprouts] confidence = 1.0
+[Brussels, Sprouts]->[surgery] confidence = 1.0
+[Sprouts]->[Brussels, surgery] confidence = 1.0
+[Sprouts, surgery]->[Brussels] confidence = 1.0
+-----------------------------------------------
+[Puerto, Rico] - 2
+
+[Rico]->[Puerto] confidence = 1.0
+[Puerto]->[Rico] confidence = 1.0
+-----------------------------------------------
+[セインツ, ドルフィンズ, 大盛況でした] - 3
+
+[セインツ, 大盛況でした]->[ドルフィンズ] confidence = 1.0
+[セインツ]->[ドルフィンズ, 大盛況でした] confidence = 1.0
+[大盛況でした]->[ドルフィンズ, セインツ] confidence = 1.0
+[ドルフィンズ, 大盛況でした]->[セインツ] confidence = 1.0
+[ドルフィンズ]->[セインツ, 大盛況でした] confidence = 1.0
+[セインツ, ドルフィンズ]->[大盛況でした] confidence = 1.0
+-----------------------------------------------
+[Dolphins, London] - 2
+
+-----------------------------------------------
+[Dolphins, week] - 2
+
+[week]->[Dolphins] confidence = 0.6666666666666666
+-----------------------------------------------
+[Mayor, NFL, Rico] - 2
+
+[Mayor, Rico]->[NFL] confidence = 1.0
+[Rico]->[Mayor, NFL] confidence = 1.0
+[Mayor]->[NFL, Rico] confidence = 1.0
+[Mayor, NFL]->[Rico] confidence = 1.0
+[NFL, Rico]->[Mayor] confidence = 1.0
+-----------------------------------------------
+[セインツ, ロンドンゲーム, 大盛況でした] - 2
+
+[セインツ, 大盛況でした]->[ロンドンゲーム] confidence = 0.6666666666666666
+[セインツ]->[ロンドンゲーム, 大盛況でした] confidence = 1.0
+[大盛況でした]->[ロンドンゲーム, セインツ] confidence = 1.0
+[セインツ, ロンドンゲーム]->[大盛況でした] confidence = 1.0
+[ロンドンゲーム]->[セインツ, 大盛況でした] confidence = 1.0
+[ロンドンゲーム, 大盛況でした]->[セインツ] confidence = 1.0
+-----------------------------------------------
+[Baby, Bodysuit, Fox] - 2
+
+[Baby, Fox]->[Bodysuit] confidence = 1.0
+[Baby]->[Bodysuit, Fox] confidence = 1.0
+[Fox]->[Baby, Bodysuit] confidence = 1.0
+[Bodysuit, Fox]->[Baby] confidence = 1.0
+[Bodysuit]->[Baby, Fox] confidence = 1.0
+[Baby, Bodysuit]->[Fox] confidence = 1.0
+-----------------------------------------------
+[ドルフィンズ, ロンドンゲーム, 大盛況でした] - 2
+
+[ドルフィンズ, 大盛況でした]->[ロンドンゲーム] confidence = 0.6666666666666666
+[ドルフィンズ]->[ロンドンゲーム, 大盛況でした] confidence = 1.0
+[大盛況でした]->[ドルフィンズ, ロンドンゲーム] confidence = 1.0
+[ロンドンゲーム, 大盛況でした]->[ドルフィンズ] confidence = 1.0
+[ロンドンゲーム]->[ドルフィンズ, 大盛況でした] confidence = 1.0
+[ドルフィンズ, ロンドンゲーム]->[大盛況でした] confidence = 1.0
+-----------------------------------------------
+[Baby, Zero] - 2
+
+[Baby]->[Zero] confidence = 1.0
+[Zero]->[Baby] confidence = 1.0
+-----------------------------------------------
+[Stadium, Wembley] - 2
+
+[Stadium]->[Wembley] confidence = 1.0
+-----------------------------------------------
+[Mayor, Puerto] - 2
+
+[Puerto]->[Mayor] confidence = 1.0
+[Mayor]->[Puerto] confidence = 1.0
+-----------------------------------------------
+Percentage of words on asscociation rules :
+.....................................................................................................
+1) Stadium = 0.5405406%
+2) New = 2.7027028%
+3) Mayor = 10.27027%
+4) Jay = 2.7027028%
+5) week = 0.5405406%
+6) Sprouts = 2.7027028%
+7) year = 0.5405406%
+8) Adrian = 0.5405406%
+9) Given = 35.135136%
+10) Peterson = 0.5405406%
+11) Cutler = 2.7027028%
+12) yesterday = 3.2432432%
+13) National = 0.5405406%
+14) NFL = 13.513513%
+15) today = 3.7837837%
+16) ロンドンゲーム = 10.27027%
+17) セインツ = 10.27027%
+18) Orleans = 2.7027028%
+19) day = 3.2432432%
+20) Zero = 35.135136%
+21) Brussels = 2.7027028%
+22) Rico = 10.27027%
+23) this = 0.5405406%
+24) 大盛況でした = 10.27027%
+25) Puerto = 10.27027%
+26) Baby = 35.135136%
+27) Bodysuit = 35.135136%
+28) Fox = 35.135136%
+29) Trump = 1.0810812%
+30) Miami = 2.7027028%
+31) morning = 0.5405406%
+32) the = 0.5405406%
+33) Hillary = 0.5405406%
+34) ドルフィンズ = 10.27027%
+35) Wembley = 3.7837837%
+36) London = 1.6216216%
+37) Saints = 0.5405406%
+38) present = 0.5405406%
+39) first = 1.0810812%
+40) surgery = 2.7027028%
+41) Dolphins = 7.5675673%

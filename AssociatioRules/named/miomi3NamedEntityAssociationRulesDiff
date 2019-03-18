@@ -1,0 +1,219 @@
+-----------------------------------------------
+ -------- Frequent Item Sets --------
+[IDEOLOGY, PERSON] 2
+[DATE, TITLE] 4
+[NUMBER, TIME] 2
+[IDEOLOGY, NUMBER] 2
+[ORDINAL] 2
+[CAUSE_OF_DEATH, NUMBER] 2
+[COUNTRY, PERSON] 4
+[COUNTRY] 21
+[NATIONALITY, STATE_OR_PROVINCE] 2
+[DATE, PERSON] 4
+[MISC, ORGANIZATION] 3
+[CITY, ORGANIZATION] 3
+[CITY, PERSON, TITLE] 2
+[IDEOLOGY] 9
+[NUMBER] 71
+[PERSON] 59
+[ORGANIZATION, STATE_OR_PROVINCE] 2
+[NUMBER, ORGANIZATION, TITLE] 2
+[COUNTRY, DATE] 2
+[CITY, DATE] 4
+[NUMBER, TITLE] 4
+[CAUSE_OF_DEATH] 12
+[DATE] 66
+[NUMBER, ORGANIZATION] 6
+[RELIGION] 3
+[CITY, LOCATION] 4
+[PERSON, TITLE] 10
+[DATE, TIME] 2
+[CITY, NUMBER] 2
+[MISC, STATE_OR_PROVINCE] 4
+[LOCATION] 5
+[NATIONALITY] 5
+[MONEY] 8
+[CITY, TITLE] 6
+[SET] 2
+[MISC] 14
+[DATE, DURATION] 2
+[COUNTRY, TIME] 2
+[ORGANIZATION, TITLE] 4
+[STATE_OR_PROVINCE] 13
+[ORGANIZATION] 28
+[ORGANIZATION, PERSON] 4
+[CITY, PERSON] 2
+[MISC, PERSON] 4
+[ORGANIZATION, PERSON, TITLE] 2
+[DATE, ORGANIZATION] 6
+[MONEY, TIME] 4
+[CAUSE_OF_DEATH, COUNTRY] 2
+[TIME] 10
+[TIME, TITLE] 3
+[MONEY, TIME, TITLE] 3
+[COUNTRY, ORGANIZATION] 4
+[COUNTRY, NUMBER] 7
+[CITY] 16
+[PERCENT] 3
+[COUNTRY, NUMBER, TIME] 2
+[TITLE] 28
+[PERSON, STATE_OR_PROVINCE] 3
+[NUMBER, PERSON] 6
+[DATE, NUMBER] 6
+[MONEY, TITLE] 4
+[DURATION] 19
+[CRIMINAL_CHARGE] 3
+ -------- Association Rules --------
+-----------------------------------------------
+-----------------------------------------------
+[IDEOLOGY, PERSON] - 2
+
+-----------------------------------------------
+[DATE, TITLE] - 4
+
+-----------------------------------------------
+[NUMBER, TIME] - 2
+
+-----------------------------------------------
+[IDEOLOGY, NUMBER] - 2
+
+-----------------------------------------------
+[CAUSE_OF_DEATH, NUMBER] - 2
+
+-----------------------------------------------
+[COUNTRY, PERSON] - 4
+
+-----------------------------------------------
+[NATIONALITY, STATE_OR_PROVINCE] - 2
+
+-----------------------------------------------
+[DATE, PERSON] - 4
+
+-----------------------------------------------
+[MISC, ORGANIZATION] - 3
+
+-----------------------------------------------
+[CITY, ORGANIZATION] - 3
+
+-----------------------------------------------
+[CITY, PERSON, TITLE] - 2
+
+[CITY, PERSON]->[TITLE] confidence = 1.0
+-----------------------------------------------
+[ORGANIZATION, STATE_OR_PROVINCE] - 2
+
+-----------------------------------------------
+[NUMBER, ORGANIZATION, TITLE] - 2
+
+-----------------------------------------------
+[COUNTRY, DATE] - 2
+
+-----------------------------------------------
+[CITY, DATE] - 4
+
+-----------------------------------------------
+[NUMBER, TITLE] - 4
+
+-----------------------------------------------
+[NUMBER, ORGANIZATION] - 6
+
+-----------------------------------------------
+[CITY, LOCATION] - 4
+
+[LOCATION]->[CITY] confidence = 0.8
+-----------------------------------------------
+[PERSON, TITLE] - 10
+
+-----------------------------------------------
+[DATE, TIME] - 2
+
+-----------------------------------------------
+[CITY, NUMBER] - 2
+
+-----------------------------------------------
+[MISC, STATE_OR_PROVINCE] - 4
+
+-----------------------------------------------
+[CITY, TITLE] - 6
+
+-----------------------------------------------
+[DATE, DURATION] - 2
+
+-----------------------------------------------
+[COUNTRY, TIME] - 2
+
+-----------------------------------------------
+[ORGANIZATION, TITLE] - 4
+
+-----------------------------------------------
+[ORGANIZATION, PERSON] - 4
+
+-----------------------------------------------
+[CITY, PERSON] - 2
+
+-----------------------------------------------
+[MISC, PERSON] - 4
+
+-----------------------------------------------
+[ORGANIZATION, PERSON, TITLE] - 2
+
+-----------------------------------------------
+[DATE, ORGANIZATION] - 6
+
+-----------------------------------------------
+[MONEY, TIME] - 4
+
+-----------------------------------------------
+[CAUSE_OF_DEATH, COUNTRY] - 2
+
+-----------------------------------------------
+[TIME, TITLE] - 3
+
+-----------------------------------------------
+[MONEY, TIME, TITLE] - 3
+
+[MONEY, TIME]->[TITLE] confidence = 0.75
+[TIME, TITLE]->[MONEY] confidence = 1.0
+[MONEY, TITLE]->[TIME] confidence = 0.75
+-----------------------------------------------
+[COUNTRY, ORGANIZATION] - 4
+
+-----------------------------------------------
+[COUNTRY, NUMBER] - 7
+
+-----------------------------------------------
+[COUNTRY, NUMBER, TIME] - 2
+
+[NUMBER, TIME]->[COUNTRY] confidence = 1.0
+[COUNTRY, TIME]->[NUMBER] confidence = 1.0
+-----------------------------------------------
+[PERSON, STATE_OR_PROVINCE] - 3
+
+-----------------------------------------------
+[NUMBER, PERSON] - 6
+
+-----------------------------------------------
+[DATE, NUMBER] - 6
+
+-----------------------------------------------
+[MONEY, TITLE] - 4
+
+-----------------------------------------------
+Percentage of words on asscociation rules :
+.....................................................................................................
+1) NATIONALITY = 1.923077%
+2) LOCATION = 1.923077%
+3) IDEOLOGY = 3.846154%
+4) NUMBER = 28.846153%
+5) MONEY = 9.615385%
+6) PERSON = 28.846153%
+7) MISC = 5.769231%
+8) TIME = 21.153847%
+9) CAUSE_OF_DEATH = 3.846154%
+10) STATE_OR_PROVINCE = 7.692308%
+11) ORGANIZATION = 26.923079%
+12) DATE = 15.384616%
+13) COUNTRY = 17.307693%
+14) CITY = 17.307693%
+15) TITLE = 36.53846%
+16) DURATION = 1.923077%
